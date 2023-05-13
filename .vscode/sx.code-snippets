@@ -1,0 +1,107 @@
+{
+    "sxf": {
+        "prefix": "sxf",
+        "body": [
+            "import sx from \"sx\";",
+            "",
+            "const { command } = sx.global();",
+            "",
+            "command(\"$1\", async (api) => {",
+            "  $2",
+            "});"
+        ],
+        "description": "sx file"
+    },
+    "sxfg": {
+        "prefix": "sxfg",
+        "body": [
+            "import sx from \"sx\";",
+            "",
+            "const { command } = sx.global();",
+            "",
+            "command(\"$1\", async (api) => {",
+            "  $2",
+            "});"
+        ],
+        "description": "sx file global"
+    },
+    "sxfa": {
+        "prefix": "sxfa",
+        "body": [
+            "import sx from \"sx\";",
+            "",
+            "const { command } = sx.app(\"$1\");",
+            "",
+            "command(\"$2\", async (api) => {",
+            "  $3",
+            "});"
+        ],
+        "description": "sx file app"
+    },
+	"sgc": {
+        "prefix": "sgc",
+        "body": [
+            "sx.global().command(\"$1\", async (api) => {",
+            "  $2",
+            "});"
+        ],
+        "description": "sx global command"
+    },
+    "sxgc": {
+        "prefix": "sxgc",
+        "body": [
+            "sx.global().command(\"$1\", async (api) => {",
+            "  $2",
+            "});"
+        ],
+        "description": "sx global command"
+    },
+    "sac": {
+        "prefix": "sac",
+        "body": [
+            "sx.app(\"$1\").command(\"$2\", async (api) => {",
+            "  $3",
+            "});"
+        ],
+        "description": "sx app command"
+    },
+    "sxac": {
+        "prefix": "sxac",
+        "body": [
+            "sx.app(\"$1\").command(\"$2\", async (api) => {",
+            "  $3",
+            "});"
+        ],
+        "description": "sx app command"
+    },
+    "cmd" : {
+        "prefix": "cmd",
+        "body": [
+            "command(\"$1\", async (api) => {",
+            "  $2",
+            "});"
+        ],
+        "description": "command"
+    },
+    "apk" : {
+        "prefix": "apk",
+        "body": [
+            "await api.pressKey(\"$1\");"
+        ],
+        "description": "api press key"
+    },
+    "att" : {
+        "prefix": "att",
+        "body": [
+            "await api.typeText(\"$1\");"
+        ],
+        "description": "api type text"
+    },
+    "arc" : {
+        "prefix": "att",
+        "body": [
+            "await api.runCommand(\"$1\");"
+        ],
+        "description": "api run command"
+    }
+}
