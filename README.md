@@ -36,6 +36,11 @@ Done! Say "Show help" to get started.
 
 ---
 
+You can find serenade-sx example commands for VSCode, Chrome, AutoHotKey, git, npm, etc here:
+[https://github.com/rokubop/serenade-sx-example](https://github.com/rokubop/serenade-sx-example/tree/main/src)
+
+---
+
 ## What is SX?
 `sx` is a drop-in replacement for `serenade` that will keep track of your
 commands and find duplicates. The API is the same as [serenade](https://serenade.ai/docs/api#api-reference), but also allows for passing in 
